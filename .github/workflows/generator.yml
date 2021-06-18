@@ -17,7 +17,7 @@ jobs:
           path: .problem-specifications
 
       - name: Install Raku
-        uses: Raku/setup-raku@v1
+        uses: Raku/setup-raku@v1.4.0
 
       - run: zef install --/test App::Prove6
       - run: zef install --/test --deps-only .
